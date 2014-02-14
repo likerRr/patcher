@@ -1,0 +1,58 @@
+.tab-pane {
+	border: solid #e3e3e3 1px;
+	padding: 10px;
+	border-radius: 0 0 5px 5px;
+	border-top: none;
+}
+#wrapper {
+	margin-top: 20px;
+	width: 700px;
+	position: relative;
+}
+#show .show-container {
+	width: inherit;
+
+	height: auto;
+}
+.log-text span {
+	padding: 4px 1px;
+}
+.bimbo {
+	width: 20px;
+	display: inline-block;
+	content: ' ';
+}
+.show-container .panel-body {
+	overflow-y: auto;
+	overflow-x: auto;
+	max-height: 500px;
+	height: auto;
+	white-space: nowrap;
+}
+.collapse-btn {
+	margin-right: 5px;
+}
+.selected-path {
+	/*background: #e3e3e3;*/
+	background: #428BCA;
+	color: white;
+	cursor: pointer;
+}
+.log-text {
+	margin: 0 0 3px !important;
+}
+.success {
+	color: #3C763D;
+}
+.warning {
+	color: #8A6D3B;
+}
+.danger {
+	color: #A94442;
+}
+.info {
+	color: #31708F;
+}
+#make-check-form .count {
+	color: gray;
+}
